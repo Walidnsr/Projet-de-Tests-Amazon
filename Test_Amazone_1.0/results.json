@@ -1,0 +1,133 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\playwright.config.js",
+    "rootDir": "C:/Users/walid/OneDrive/Bureau/Test_Amazone_1.0",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/walid/OneDrive/Bureau/Test_Amazone_1.0/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/walid/OneDrive/Bureau/Test_Amazone_1.0",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\delete.product.cart.spec.js",
+      "file": "tests/delete.product.cart.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Amazon Cart Test",
+          "file": "tests/delete.product.cart.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should add a product to cart and then remove it",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 76,
+                      "status": "passed",
+                      "duration": 12686,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-11-25T13:21:17.817Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\test-results\\tests-delete.product.cart--25a5e--to-cart-and-then-remove-it\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "601ca2ea3d1bc21296e0-7cf2c78e50e364cd64c8",
+              "file": "tests/delete.product.cart.spec.js",
+              "line": 8,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "message": "Error: Cannot find module './search.product.by.category.spec.js'\nRequire stack:\n- C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\alltests.spec.ts\n- C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\node_modules\\playwright\\lib\\common\\esmLoaderHost.js\n- C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\node_modules\\playwright\\lib\\common\\process.js",
+      "stack": "Error: Cannot find module './search.product.by.category.spec.js'\nRequire stack:\n- C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\alltests.spec.ts\n- C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\node_modules\\playwright\\lib\\common\\esmLoaderHost.js\n- C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\node_modules\\playwright\\lib\\common\\process.js\n    at Object.<anonymous> (C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\alltests.spec.ts:1:1)",
+      "location": {
+        "file": "C:\\Users\\walid\\OneDrive\\Bureau\\Test_Amazone_1.0\\alltests.spec.ts",
+        "column": 1,
+        "line": 1
+      },
+      "snippet": "\u001b[90m   at \u001b[39malltests.spec.ts:1\n\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m'./search.product.by.category.spec.js'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"
+    }
+  ],
+  "stats": {
+    "startTime": "2024-11-25T13:21:15.240Z",
+    "duration": 21215.78199999989,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

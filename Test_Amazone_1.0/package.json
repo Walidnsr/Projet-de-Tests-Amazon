@@ -1,0 +1,20 @@
+{
+  "name": "test_amazone_1.0",
+  "version": "1.0.0",
+  "description": "Ce `README.md` fournit une vue d'ensemble claire du projet de test Amazon.fr realisé par Mohamed Walid Nassir Elhak, les instructions d'installation et la façon d'exécuter les tests.",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test-chromium-navigation": "npx playwright test navigation.spec.ts --project=chromium",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "allure-playwright": "^3.0.6"
+  }
+}
