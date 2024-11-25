@@ -2,7 +2,7 @@
 
 Ce projet de tests est conçu pour automatiser la validation des différentes fonctionnalités du site Amazon. L'utilisation de Playwright garantit une exécution fluide et une vérification détaillée de chaque composant du site. Les fonctionnalités clés testées incluent la navigation sur le site, les recherches, la création de comptes, et la gestion du panier, afin d'assurer une expérience utilisateur optimale.
 
-<img src="Screenshots/Amazon%20Playwright%20Test.png" alt="Amazon Playwright Test" width="450">
+<img src="Screenshots/Amazon%20Playwright%20Test.png" alt="Amazon Playwright Test" width="600">
 
 # Projet de Tests Amazon
 
