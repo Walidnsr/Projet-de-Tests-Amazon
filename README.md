@@ -1,7 +1,3 @@
-Bien sûr, voici un `README.md` bien formulé et organisé pour votre projet de tests automatisés Amazon :
-
----
-
 # Projet de Tests Amazon
 
 Ce projet de tests est conçu pour automatiser la validation des différentes fonctionnalités du site Amazon. L'utilisation de Playwright garantit une exécution fluide et une vérification détaillée de chaque composant du site. Les fonctionnalités clés testées incluent la navigation sur le site, les recherches, la création de comptes, et la gestion du panier, afin d'assurer une expérience utilisateur optimale.
